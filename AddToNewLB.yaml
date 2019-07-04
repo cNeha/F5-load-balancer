@@ -47,7 +47,7 @@
       pool: "{{ pool_name }}"
       snat: "Automap"
       validate_certs: "no"
-   register: virtual_server
+    register: virtual_server
 
   - name: CREATE NODES
     bigip_node:
